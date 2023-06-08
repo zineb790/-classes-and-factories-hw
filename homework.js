@@ -67,3 +67,9 @@ class Person{
     }
     
 }
+//Create a Story with your Person class
+const Timmy = new Person(5)
+Timmy.eat(" eat five times")
+Timmy.exercise("exercice five times")
+Timmy.age = 9
+const Gus= new Hamster("Timmy","Gus")
